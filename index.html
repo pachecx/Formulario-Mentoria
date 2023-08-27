@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Mentoria</title>
+
+</head>
+<body>
+    <div class="page">
+
+        <header class="header">
+
+            <h1>avalie a sua mentoria</h1>
+            <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+
+            <svg height="100px" width="100px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                viewBox="0 0 512 512" xml:space="preserve">
+                <g>
+                    <polygon style="fill:#E04F5F;" points="29.984,266.88 18.528,302.136 48.512,280.336 78.48,302.136 67.048,266.88 97.016,245.104 
+                        59.968,245.104 48.512,209.864 37.056,245.104 0,245.104 	"/>
+                    <polygon style="fill:#E04F5F;" points="163.712,245.104 152.256,209.864 140.8,245.104 103.744,245.104 133.728,266.88 
+                        122.272,302.136 152.256,280.336 182.24,302.136 170.784,266.88 200.776,245.104 	"/>
+                    <polygon style="fill:#E04F5F;" points="267.456,245.104 256,209.864 244.544,245.104 207.488,245.104 237.472,266.88 
+                        226.016,302.136 256,280.336 285.984,302.136 274.528,266.88 304.512,245.104 	"/>
+                    <polygon style="fill:#E04F5F;" points="371.2,245.104 359.744,209.864 348.288,245.104 311.224,245.104 341.216,266.88 
+                        329.76,302.136 359.744,280.336 389.728,302.136 378.272,266.88 408.256,245.104 	"/>
+                </g>
+                <polygon style="fill:#CFDCE5;" points="474.944,245.104 463.488,209.864 452.032,245.104 414.984,245.104 444.952,266.88 
+                    433.496,302.136 463.488,280.336 493.472,302.136 482.016,266.88 512,245.104 "/>
+            </svg>
+
+        </header>
+
+        <div class="head-form"><legend>Informações pessoais</legend></div>
+        <div class="form">
+            
+            <form>
+                <fieldset>
+                
+                    <div class="input-id">
+    
+                        <div class="input-wrapper">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name"/>
+                        </div>
+    
+                        <div class="input-wrapper">
+                            <label for="lastName">Sobrenome</label>
+                            <input type="text" id="lastName"/>
+                        </div>
+    
+                    </div>
+    
+                    <div class="input-wrapper">
+                        <label for="Email">Email <span>(digite um email válido)</span></label>
+                        <input type="email" id="Email"/>
+                    </div>
+    
+                </fieldset>
+    
+                <fieldset class="mentor-information">
+                    <legend>Informações do mentor</legend>
+    
+                    <div class="input-wrapper">
+                        <label for="couch">Selecione quem foi o seu mentor</label>
+                        <input type="search" id="couch"/>
+                
+                    </div>
+    
+                    <div class="input-wrapper">
+                        <label for="FeedBack">Feedback sobre o mentor</label>
+                        <input type="text" id="feedBack"/>
+                    </div>
+                    
+                    <div class="input-check">
+                        <label for="check">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+                        <input type="checkbox" id="check"/>
+                    </div>
+                
+                </fieldset>
+
+                <fieldset class="next-event">      
+
+                    <legend>Agendando próxima mentoria</legend>
+    
+                    <div class="input-wrapper">
+                        <label for="event-date">Data <span>(DD/MM/AAAA)</span></label>
+                        <input type="date" id="event-date"/>
+                
+                    </div>
+    
+                   <div class="time">
+
+                        <div class="input-wrapper">
+                            <label for="event-begin">Das</label>
+                            <input type="time" id="event-begin"/>
+                        </div>
+                        
+                        <div class="input-wrapper">
+                            <label for="event-end">As</label>
+                            <input type="time" id="event-end"/>
+                        </div>
+
+                   </div>
+
+                </fieldset>
+
+                <button class="button"><span>Salvar</span></button>
+            </form>
+
+        </div>
+    </div>
+    
+</body>
+</html>
